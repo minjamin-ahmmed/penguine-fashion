@@ -1,0 +1,129 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Styles */
+.display-flex {
+    display: flex;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 500px;
+    color: white;
+    background: linear-gradient(180.00deg, rgb(164, 188, 70), rgb(133, 160, 25));
+    border-radius: 10px;
+    padding: 18px 33px;
+    border: none;
+}
+
+/* Fonts */
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.bebas-neue {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Banner Section Styles Starts Here */
+.banner-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 39px 135px;
+    background-color: rgb(255, 251, 240);
+}
+
+.navigation-bar {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.nav-logo {
+    max-width: 240px;
+
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.unordered-list {
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+
+.anchor-item {
+    color: rgb(60, 60, 60);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+/* Banner Element */
+.banner-element {
+    gap: 280px;
+}
+
+.banner-text-container {
+    max-width: 500px;
+    margin-top: 100px;
+}
+
+.span1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    color: rgb(250, 190, 76);
+}
+
+.span2 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    color: rgb(54, 57, 88);
+    margin-bottom: 24px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(54, 57, 88);
+    margin-bottom: 24px;
+}
+
+.banner-image-container {
+    width: 550px;
+    height: 560px;
+    position: relative;
+
+}
+
+
+.background-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+
+}
+
+.girl-image {
+    width: 100%;
+    position: absolute;
+    top: -46%;
+    left: 2%;
+    z-index: 2;
+}
